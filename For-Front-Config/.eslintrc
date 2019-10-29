@@ -1,0 +1,19 @@
+extends:
+  ["airbnb-base"]
+
+globals:
+  __: false
+
+env:
+  browser: true
+  node: true
+  jest: true
+  es6: true
+  jquery: true
+
+
+rules:
+  no-shadow: 'off'
+  no-console: 'off'
+  indent: [2, 4, {"SwitchCase": 1}]
+  linebreak-style: 'off'

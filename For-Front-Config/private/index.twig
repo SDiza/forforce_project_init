@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% include './_helpers/favicon/favicon.twig' %}
+    <title>{% block pageTitle %}Index Page{% endblock %}</title>
+</head>
+<body class="page {% block pageName %}{% endblock %}">
+<div class="page_wrapper container">
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main class="page_wrapper__content">
+        {% block pageContent %}
+            <div class="typography">
+                <hr>
+                <h1>Page list</h1>
+                <ol>
+                    <li>
+                        <b>Main</b>: <a href="main.html">main.html</a>
+                    </li>
+                    <li>
+                        <b>Typography</b>: <a href="typography.html">typography.html</a>
+                    </li>
+                </ol>
+                <hr>
+            </div>
+        {% endblock %}
+    </main>
+    <footer class="page_wrapper__footer">
+        <h3>Footer</h3>
+    </footer>
+</div>
+<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.page_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.page_wrapper__content {
+    flex: 1 0 auto;
+}
+.page_wrapper__footer {
+    flex-shrink: 0;
+}

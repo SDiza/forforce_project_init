@@ -1,0 +1,1 @@
+**[For-Front-Config](https://docs.google.com/spreadsheets/d/1ah-aGB6FGcusvmJwg7AZEVKAHjafbKA3pj4b7z-H4rY/edit#gid=0)** - позволяет легко и быстро начать работу над проектом с использованием **Gulp/Webpack**.

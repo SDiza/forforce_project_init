@@ -63,7 +63,7 @@
     "prettier-stylelint": "^0.4.2",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
-    "stylelint": "^9.5.0",
+    "stylelint": "^15.10.1",
     "twig-loader": "^0.4.1"
   },
   "dependencies": {
